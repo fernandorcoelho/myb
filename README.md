@@ -1,44 +1,40 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+Move Your Body Page
+</h1>
 
-## Available Scripts
+<p align="center">Move Your Body is a startup that promotes public sportive events. Here's the page I'm currently working on.</p>
+<p align="center">Deployed <a href="https://myb.vercel.app/">here</a>.</p>
 
-In the project directory, you can run:
+![GitHub top language](https://img.shields.io/github/languages/count/fernandorcoelho/myb) 
+![GitHub top language](https://img.shields.io/github/languages/top/fernandorcoelho/myb) ![GitHub last commit](https://img.shields.io/github/last-commit/fernandorcoelho/myb) ![GitHub repo size](https://img.shields.io/github/repo-size/fernandorcoelho/myb)
 
-### `yarn start`
+<hr>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Participants
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+| [<img src="https://avatars2.githubusercontent.com/u/63662083?s=460&u=13c4f318194a9c353656bb2967fca1dedd2ebd01&v=4" width="75px;"/>](https://github.com/fernandorcoelho/) |
+| :------------------------------------------------------------------------------------------------------------------------: |
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| [Fernando Rodrigues Coelho](https://github.com/fernandorcoelho/)
 
-### `yarn build`
+## Techs
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [x] React.js
+- [x] Styled Components
+- [x] TypeScript
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Ideas to implement
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [ ] 
+- [ ] 
+- [ ] 
 
-### `yarn eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Run `npm install` or `yarn install`.<br />
+2. Run `yarn start` and access `http://localhost:3000`.<br />
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
