@@ -31,12 +31,17 @@ export const TopBarContainer = styled.div`
   display: grid;
   grid-auto-flow: column;
 
-  > img {
-    /* position: absolute; */
-  }
-
   @media (min-width: 1023px) {
     transform: scale(0.8);
+  }
+
+  @media (max-width: 960px) {
+    > img {
+      transform: translateX(-6rem) scale(0.9);
+    }
+    .menu-icon {
+      transform: translateX(8rem) scale(0.9);
+    }
   }
 
   @media (max-width: 768px) {
@@ -50,13 +55,16 @@ export const TopBarContainer = styled.div`
 
   @media (max-width: 425px) {
     > img {
-      transform: translateX(-10rem) scale(0.7);
+      transform: translateX(-6rem) scale(0.54);
+    }
+    .menu-icon {
+      transform: translateX(-8rem) scale(0.8);
     }
   }
 
   @media (max-width: 375px) {
     > img {
-      transform: translateX(-10rem) scale(0.58);
+      transform: translateX(-8rem) scale(0.58);
     }
     .menu-icon {
       transform: translateX(-8rem) scale(0.8);
@@ -113,7 +121,7 @@ export const HeaderContent = styled.div`
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 960px) {
     .nav-menu {
       display: flex;
       flex-direction: column;

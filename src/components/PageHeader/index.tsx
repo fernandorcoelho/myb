@@ -73,7 +73,7 @@ const PageHeader: React.FC = () => {
           </li>
           <li className="nav-item">
             <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>
-              Cotato
+              Contato
             </Link>
           </li>
         </ul>
